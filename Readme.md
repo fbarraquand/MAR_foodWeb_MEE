@@ -5,7 +5,7 @@ date: "August 22, 2017"
 output: html_document
 ---
 
-This repository contains the code associated with **Supporting Information S5 - Lotka-Volterra food web dynamics with moderately complex structure** of Certain et al. MEE 2017. 
+This repository contains the code associated with **Supporting Information S2 - Lotka-Volterra food web dynamics with moderately complex structure** of Certain et al. MEE 2017. 
 
 ### Contents
 
