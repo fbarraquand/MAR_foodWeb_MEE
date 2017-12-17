@@ -9,10 +9,10 @@ This repository contains the code associated with **Supporting Information S2 - 
 
 ### Contents
 
-* __Simulation of $k=100$ food webs with the same topology__ and a randomly drawn set of interaction strengths and environmental effects values.  Output of simulations (simulated and expected interaction matrices, time series, ...) and expected effects of a PRESS perturbation are produced by `` LVR_foodWeb_simulation.R ``
+* __Simulation of **k=100** food webs with the same topology__ and a randomly drawn set of interaction strengths and environmental effects values.  Output of simulations (simulated and expected interaction matrices, time series, ...) and expected effects of a PRESS perturbation are produced by `` LVR_foodWeb_simulation.R ``
 
 * __MAR(1) model fitting__, both with 
-  1. Unknown topology, i.e., no prior knowledge on the $$\mathbf{B}$$ and $$\mathbf{C}$$ matrices in ``MAR_modelFitting_loop.R``
+  1. Unknown topology, i.e., no prior knowledge on the **B** and **C** matrices in ``MAR_modelFitting_loop.R``
   2. Known topology in `` MAR_modelFitting_loop_knownTopology.R``(similar to our 2x2 simulations in the main text)
 
 * __Evaluation of MAR model ($\mathbf{x}_{t+1} = \mathbf{B} \mathbf{x}_{t} + \mathbf{C} \mathbf{u}_{t} + \mathbf{e}_{t}$) performance__
