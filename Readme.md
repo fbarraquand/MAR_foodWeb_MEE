@@ -15,7 +15,7 @@ This repository contains the code associated with **Supporting Information S2 - 
   1. Unknown topology, i.e., no prior knowledge on the **B** and **C** matrices in ``MAR_modelFitting_loop.R``
   2. Known topology in `` MAR_modelFitting_loop_knownTopology.R``(similar to our 2x2 simulations in the main text)
 
-* __Evaluation of MAR model (x~t+1~= B x~t~+C u~t~+e~t~) performance__
+* __Evaluation of MAR model (x<sub>t+1</sub>= B x<sub>t</sub>+C u<sub>t</sub>+e<sub>t</sub>) performance__
   1. Recovery of **B** elements (net intersp. interaction strength and intrasp. regulation) in ``MAR_BvsJ.R`` or ``MAR_BvsJ_knownTopo.R``
   2. Recovery of **C** environmental effects in ``MAR_CvsQ_knownTopo.R``
   3. Quality of PRESS predictions ``MAR_PRESS_knownTopo.R``
@@ -35,7 +35,7 @@ Within each folder, one finds subfolders for
   2. Estimation (``MAR_estimation``)
   3. Evaluation (``MAR_evaluation``, plots of results and summary tables of model performance) 
   
-The suffix ``_800`` refers to the final results with 800 timesteps reported in SI2 of Certain et al, that provide reasonable estimates. Other folders use *t~max~=100* for model fitting, as in the main text, which is insufficient for 12-species food web considered here. 
+The suffix ``_800`` refers to the final results with 800 timesteps reported in SI2 of Certain et al, that provide reasonable estimates. Other folders use *t<sub>max</sub>=100* for model fitting, as in the main text, which is insufficient for 12-species food web considered here. 
 
 
 
