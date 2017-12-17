@@ -9,8 +9,6 @@ This repository contains the code associated with **Supporting Information S2 - 
 
 ### Contents
 
-It contains the following parts
-
 * __Simulation of $k=100$ food webs with the same topology__ and a randomly drawn set of interaction strengths and environmental effects values.  Output of simulations (simulated and expected interaction matrices, time series, ...) and expected effects of a PRESS perturbation are produced by `` LVR_foodWeb_simulation.R ``
 
 * __MAR(1) model fitting__, both with 
