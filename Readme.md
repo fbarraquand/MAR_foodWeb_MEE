@@ -15,9 +15,9 @@ This repository contains the code associated with **Supporting Information S2 - 
   1. Unknown topology, i.e., no prior knowledge on the **B** and **C** matrices in ``MAR_modelFitting_loop.R``
   2. Known topology in `` MAR_modelFitting_loop_knownTopology.R``(similar to our 2x2 simulations in the main text)
 
-* __Evaluation of MAR model ($\mathbf{x}_{t+1} = \mathbf{B} \mathbf{x}_{t} + \mathbf{C} \mathbf{u}_{t} + \mathbf{e}_{t}$) performance__
-  1. Recovery of $\mathbf{B}$ elements (net intersp. interaction strength and intrasp. regulation) in ``MAR_BvsJ.R`` or ``MAR_BvsJ_knownTopo.R``
-  2. Recovery of $\mathbf{C}$ environmental effects in ``MAR_CvsQ_knownTopo.R``
+* __Evaluation of MAR model (**x_{t+1} = B x_t + C u_t + e_t**) performance__
+  1. Recovery of **B** elements (net intersp. interaction strength and intrasp. regulation) in ``MAR_BvsJ.R`` or ``MAR_BvsJ_knownTopo.R``
+  2. Recovery of **C** environmental effects in ``MAR_CvsQ_knownTopo.R``
   3. Quality of PRESS predictions ``MAR_PRESS_knownTopo.R``
 
 [Note the code would also allow, with small modifications, to check the quality of short-term forecasts]
@@ -35,7 +35,7 @@ Within each folder, one finds subfolders for
   2. Estimation (``MAR_estimation``)
   3. Evaluation (``MAR_evaluation``, plots of results and summary tables of model performance) 
   
-The suffix ``_800`` refers to the final results with 800 timesteps reported in SI5 of Certain et al, that provide reasonable estimates. Other folders use $t_{text{max}}=100$ for model fitting, as in the main text, which is insufficient for 12-species food web considered here. 
+The suffix ``_800`` refers to the final results with 800 timesteps reported in SI5 of Certain et al, that provide reasonable estimates. Other folders use *t_max=100* for model fitting, as in the main text, which is insufficient for 12-species food web considered here. 
 
 
 
