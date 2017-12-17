@@ -15,7 +15,7 @@ This repository contains the code associated with **Supporting Information S2 - 
   1. Unknown topology, i.e., no prior knowledge on the **B** and **C** matrices in ``MAR_modelFitting_loop.R``
   2. Known topology in `` MAR_modelFitting_loop_knownTopology.R``(similar to our 2x2 simulations in the main text)
 
-* __Evaluation of MAR model (x<sub>t+1</sub>= B x<sub>t</sub>+C u<sub>t</sub>+e<sub>t</sub>) performance__
+* __Evaluation of MAR model (x<sub>t+1</sub> = B x<sub>t</sub> + C u<sub>t</sub> + e<sub>t</sub>) performance__
   1. Recovery of **B** elements (net intersp. interaction strength and intrasp. regulation) in ``MAR_BvsJ.R`` or ``MAR_BvsJ_knownTopo.R``
   2. Recovery of **C** environmental effects in ``MAR_CvsQ_knownTopo.R``
   3. Quality of PRESS predictions ``MAR_PRESS_knownTopo.R``
