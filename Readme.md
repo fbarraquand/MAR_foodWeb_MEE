@@ -1,3 +1,6 @@
+
+[![DOI](https://zenodo.org/badge/102585091.svg)](https://zenodo.org/badge/latestdoi/102585091)
+
 ###  MAR(1) models fitted to discrete-time Lotka-Volterra (Ricker) food web 
 This repository contains code associated with **Supporting Information S2 - Lotka-Volterra food web dynamics with moderately complex structure** of Certain et al. MEE 2018 [How do MAR(1) models cope with hidden nonlinearities in ecological dynamics? Methods in Ecology and Evolution, by G. Certain, F. Barraquand and A. Gårdmark]. 
 
